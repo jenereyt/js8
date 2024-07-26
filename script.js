@@ -19,5 +19,6 @@ let average = 0
 shuffled.forEach(value => {
   total += value
 });
+average = total/ shuffled.length  
 console.log(total)
 console.log(average)
